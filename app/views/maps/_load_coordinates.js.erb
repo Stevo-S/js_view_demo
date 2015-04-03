@@ -1,0 +1,5 @@
+
+      <% latitude = location.as_json["latitude"] %>
+        <% longitude = location.as_json["longitude"] %>
+        
+        locations.push(['Description', <%= j latitude.to_s %>, <%= j longitude.to_s %>]);
